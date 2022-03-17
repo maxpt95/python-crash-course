@@ -14,12 +14,12 @@
 # current_users containing the lowercase versions of all existing users.)
 
 usernames = ["Max", "Roberto", "Alejandro", "Sebastian", "Daniel"]
-newUsers = ["Chris", "Ariana", "Max", "Salvador", "Alejandro"]
+new_users = ["Chris", "Ariana", "Max", "Salvador", "Alejandro"]
 # usernames are not case sensitive.
-lowerUsernames = [username.lower() for username in usernames]
+lower_usernames = [username.lower() for username in usernames]
 
-for newUser in newUsers:
-    if newUser.lower() in lowerUsernames:
-        print(newUser + " is alredy taken. Please input a new username")
+for new_user in new_users:
+    if new_user.lower() in lower_usernames:
+        print(new_user + " is alredy taken. Please input a new username")
     else:
-        print("Welcome " + newUser + "!")
+        print("Welcome " + new_user + "!")
